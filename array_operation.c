@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int a[20];
-int choice,size,i=0;
+int choice,size,i=0,pos;
 void create_array(){
     printf("Enter the size of the array: ");
     scanf("%d",&size);
@@ -14,7 +14,7 @@ printf("\nThe array: ");
     printf("%d\t",a[i]);
 }
 void insert(){
-    int ele,pos;
+    int ele;
     printf("Enter the element: ");
     scanf("%d",&ele);
     printf("Enter the Position to insert %d: ",ele);
@@ -26,7 +26,6 @@ void insert(){
     
 }
 void delete(){
-    int pos;
     printf("Enter the Position to Delete: ");
     scanf("%d",&pos);
     for(i=pos-1;i<size;i++)
