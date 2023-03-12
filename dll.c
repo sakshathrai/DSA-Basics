@@ -86,7 +86,7 @@ void display_dll()
 int main()
 {
     int choice;
-    printf("********** Singly Linked List using stack **********");
+    printf("********** Doubly Linked List using stack **********");
     printf("\n1. Create DLL\n2. POP\n3. Display DLL\n4. Exit\n");
     while (1)
     {
